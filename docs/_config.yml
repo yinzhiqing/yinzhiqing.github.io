@@ -30,10 +30,10 @@ twitter_username: yinzhiqing
 github_username:  yinzhiqing
 
 # Build settings
-# theme: minima
+theme: minima
 # plugins:
 # - jekyll-feed
-theme: hacker
+# theme: hacker
 plugins:
 - jekyll-feed
 

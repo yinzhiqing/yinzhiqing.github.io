@@ -77,20 +77,20 @@
 
 **格式（链接）：**
 ```
-［文字表述］（www.baidu.com　"baidu"）
+［文字表述］（https://www.baidu.com　"baidu"）
 ```
 **显示效果：**
 
- [百度首页](www.baidu.com　"baidu")
+ [百度首页](https://www.baidu.com　"baidu")
  
 **格式（图片):**
 
 ```
- ![文字描述](demo.jpeg "demo")
+ ![文字描述](demo.jpeg)
 ```
 ***显示效果：***
 
- ![本地图片](demo.jpeg　"demo")
+ ![本地图片](./demo.jpeg)
  
  **格式（链接ＩＤ)**
  

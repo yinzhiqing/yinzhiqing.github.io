@@ -183,3 +183,153 @@
     return 0;
   }
 ```
+<a name="角标" id="锚点２"></a>
+# 角标
+
+格式
+```
+标注１．[^1]
+[^1]: 标注１内容
+
+标注２. [^2]
+[^2]: 标注２内容
+```
+
+**显示效果**
+标注１．[^1]
+[^1]: 标注１内容
+
+标注２. [^2]
+[^2]: 标注２内容
+
+# 链接
+
+**格式***
+```
+<https://www.baidu.com>
+```
+
+**显示效果**
+<https://www.baidu.com>
+
+<a name="代码高亮" id="锚点１"></a>
+# 代码高亮
+
+标记代码的语种，实现代码的高亮
+
+**ruby语言代码**
+```
+    ```ruby
+    require 'redcarpet'
+    markdown = Redcarpet.new("Hello World!")
+    puts markdown.to_html
+    ```
+```
+
+**显示效果**
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+**c语言代码**
+```
+    ```c
+    int main() {
+       printf("%s", "hello world.");
+       return 0;
+    }
+    ```
+```
+
+
+**显示效果**
+```c
+    int main() {
+       printf("%s", "hello world.");
+       return 0;
+    }
+```
+# 内部跳转
+
+**格式**
+```
+  点此[代码高亮](#锚点１)跳转。
+  点此[角标](#锚点２)跳转。
+```
+点此[代码高亮](#锚点１)跳转。
+点此[角标](#锚点２)跳转。
+
+# html格式表格
+
+**格式**
+```
+<table>
+ <tr>
+  <td><strong>Name</strong></td>
+  <td><strong>Type</strong></td>
+  <td><strong>Description</strong></td>
+ </tr>
+ <tr>
+  <td><strong>md</strong></td>
+  <td>string</td>
+  <td>markdown table</td>
+ </tr>
+ <tr>
+  <td><strong>kd</strong></td>
+  <td>string</td>
+  <td>kramdown</td>
+ </tr>
+</table>
+```
+
+**显示效果**
+<table>
+ <tr>
+  <td><strong>Name</strong></td>
+  <td><strong>Type</strong></td>
+  <td><strong>Description</strong></td>
+ </tr>
+ <tr>
+  <td><strong>md</strong></td>
+  <td>string</td>
+  <td>markdown table</td>
+ </tr>
+ <tr>
+  <td><strong>kd</strong></td>
+  <td>string</td>
+  <td>kramdown</td>
+ </tr>
+</table>
+
+## 表格中链接到本地
+
+**格式**
+```
+<table>
+ <tr>
+  <td><strong>Name</strong></td>
+  <td><strong>Type</strong></td>
+  <td><strong>Description</strong></td>
+ </tr>
+ <tr>
+  <td><strong><a href="#有序列表">有序列表</a></strong></td>
+  <td>string</td>
+  <td>查看有序列表</td>
+ </tr>
+</table>
+```
+**显示效果**
+<table>
+ <tr>
+  <td><strong>Name</strong></td>
+  <td><strong>Type</strong></td>
+  <td><strong>Description</strong></td>
+ </tr>
+ <tr>
+  <td><strong><a href="#有序列表">有序列表</a></strong></td>
+  <td>string</td>
+  <td>查看有序列表</td>
+ </tr>
+</table>

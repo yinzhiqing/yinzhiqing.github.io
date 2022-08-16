@@ -42,8 +42,7 @@ date: 2022-08-12 12:32:10 +0800
 
 <!-- outline-start -->
 
-GitHub markdown file format.
-<!-- outlin-end-->
+GitHub markdown file format. <!-- outline-end -->
 
 # 注意
 　字符用半角

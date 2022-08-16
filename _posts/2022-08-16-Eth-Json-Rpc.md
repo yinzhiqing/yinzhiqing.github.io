@@ -46,6 +46,7 @@ date: 2022-08-16 15:32:10 +0800
 
 # 接口列表
 
+
 ## eth_getBlockByHash 
 
 **接口描述**
@@ -104,7 +105,7 @@ date: 2022-08-16 15:32:10 +0800
 |blocknumber/blocktag|string|块编号的整数，或字符串|earliest finalized safe latest pending|
 |hydrated|boolean|返回值内容|如果true它返回完整的交易对象，如果false只有交易的哈希值|
 
-** 返回值 **
+**返回值**
 
 参照[eth_getBlockByHash](## eth_getBlockByHash)
 

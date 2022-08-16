@@ -40,6 +40,9 @@ date: 2022-08-12 12:32:10 +0800
 {%- capture readme_file -%}{%- include_relative _README.md -%}{%- endcapture -%}
 {%- assign tmp_content = readme_file | split: "<!-- readme -->" -%}
 
+<!-- outline-start -->
+GitHub markdown file format.
+
 # 注意
 　字符用半角
  

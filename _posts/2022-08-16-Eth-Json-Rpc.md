@@ -360,7 +360,7 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|gasUsed|string|十六进制编码的无符号整数||
+|gasUsed|string|估值|十六进制编码的无符号整数|
 
 
 ## eth_gasPrice
@@ -380,7 +380,7 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|gasPrice|string|十六进制编码的无符号整数||
+|gasPrice|string|gas当前价格|十六进制编码的无符号整数|
 
 
 ## eth_newFilter
@@ -405,7 +405,7 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|id|string|十六进制编码的无符号整数||
+|id|string|过滤器ID|十六进制编码的无符号整数|
 
 
 ## eth_newBlockFilter
@@ -425,7 +425,7 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|id|string|十六进制编码的无符号整数||
+|id|string|过滤器ID|十六进制编码的无符号整数|
 
 
 ## eth_newPendingTransactionFilter
@@ -445,7 +445,7 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|id|string|十六进制编码的无符号整数||
+|id|string|过滤器ID|十六进制编码的无符号整数|
 
 
 ## eth_uninstallFilter
@@ -461,7 +461,7 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|id|string|十六进制编码的无符号整数||
+|id|string|过滤器ID|十六进制编码的无符号整数|
 
 **返回值**
 
@@ -483,21 +483,42 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|id|string|十六进制编码的无符号整数||
+|id|string|过滤器ID|十六进制编码的无符号整数|
 
 **返回值**
 
+日志对象数组，如果自上次轮询以来没有任何更改，则返回一个空数组。
+
+- eth_newBlockFilter对应的id查询的结果
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|||||
-|||||
+|blockHash|array(string)|块hash数组||
+
+- eth_newPendingTransactionFilter对应的id查询的结果
+|名称|类型|说明|备注|
+|:---|:---|:---|:---|
+|tranHash|array(string)|事务hash数组||
+
+- eth_newFilter对应的id查询的结果
+|名称|类型|说明|备注|
+|:---|:---|:---|:---|
+|removed|string|日志状态|true当日志被删除时，由于链重组。false如果它是有效的日志。|
+|logIndex|string|块中日志索引位置的整数|null当其挂起的日志|
+|transactionIndex|string|创建事务日志索引位置|十六进制编码的无符号整数, null当其挂起的日志|
+|transactionHash|string|创建此日志的事务的哈希值|null当其挂起的日志|
+|blockHash|string|此日志所在的块的哈希值|null当其挂起的日志|
+|blockNumber|string|此日志所在的块号|null当其挂起的日志|
+|address|string|此日志的来源地址||
+|data|string|包含一个或多个 32 字节非索引参数的日志||
+|topics|array|0 到 4 个 32 字节DATA的索引日志参数数组||
 
 
-## 
+## eth_getFilterLogs
 
 **接口描述**
 ```
  
+返回具有给定 id 的所有与过滤器匹配的日志的数组。
 
 ```
 
@@ -505,22 +526,19 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|||||
-|||||
+|id|string|过滤器ID|十六进制编码的无符号整数|
 
 **返回值**
 
-|名称|类型|说明|备注|
-|:---|:---|:---|:---|
-|||||
-|||||
+参见[eth_getFilterChanges](##eth_getFilterChanges)
 
 
-## 
+## eth_getLogs
 
 **接口描述**
 ```
  
+返回与给定过滤器对象匹配的所有日志的数组。
 
 ```
 
@@ -528,38 +546,34 @@ date: 2022-08-16 15:32:10 +0800
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|||||
-|||||
+|fromBlock/blocktag|string|(可选)块编号的整数，或字符串|earliest finalized safe latest pending|
+|toBlock/blocktag|string|(可选)块编号的整数，或字符串|earliest finalized safe latest pending|
+|address|string/array|(可选)合约地址或记录日志的地址列表||
+|topics|string/array|(可选) 32 字节DATA主题数组||
 
 **返回值**
 
-|名称|类型|说明|备注|
-|:---|:---|:---|:---|
-|||||
-|||||
+参见[eth_getFilterChanges](##eth_getFilterChanges)
 
 
-## 
+## eth_mining
 
 **接口描述**
 ```
  
+返回客户端是否在挖掘新块
 
 ```
 
 **参数**
 
-|名称|类型|说明|备注|
-|:---|:---|:---|:---|
-|||||
-|||||
+  无
 
 **返回值**
 
 |名称|类型|说明|备注|
 |:---|:---|:---|:---|
-|||||
-|||||
+|state|boolean|挖矿状态||
 
 
 ## 

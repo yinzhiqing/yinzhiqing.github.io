@@ -241,7 +241,7 @@ creative_commons:
   enable: true
   tooltip: true
   add_all_icons: true
-  license_url: "https://creativecommons.org/licenses/$license/4.0/deed.$lng"
+  license_url: ""
   license_replace: $license
   lang_replace: $lng
 

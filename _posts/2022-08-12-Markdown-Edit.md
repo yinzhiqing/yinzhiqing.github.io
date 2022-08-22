@@ -151,7 +151,8 @@ GitHub markdown file format. <!-- outline-end -->
 ## 无序列表
   使用 -、+ 和 * 表示无序列表，前后留一行空白，可嵌套:
   
-**
+**格式**
+
 ```
 + 第一层
     - 第二层
@@ -349,7 +350,7 @@ puts markdown.to_html
  </tr>
 </table>
 
-### 表格中链接到本地
+## 表格中链接到本地
 
 **格式**
 ```

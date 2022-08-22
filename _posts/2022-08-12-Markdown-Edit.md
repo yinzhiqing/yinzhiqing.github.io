@@ -44,10 +44,10 @@ date: 2022-08-12 12:32:10 +0800
 
 GitHub markdown file format. <!-- outline-end -->
 
-# 注意
+## 注意
 　字符用半角
  
-# 标题
+## 标题
   第一种是使用 # 表示标题，其中 # 号必须在行首，(1～6个＃)
   第二种是使用 === 或者 --- 表示。
 
@@ -85,7 +85,7 @@ GitHub markdown file format. <!-- outline-end -->
 标题
 ---
 
-# 分割线
+## 分割线
 
 使用三个或以上的 - 或者 * 表示，且这一行只有符号，注意不要被识别为二级标题即可，例如中间或者前面可以加空格。
 
@@ -106,7 +106,7 @@ GitHub markdown file format. <!-- outline-end -->
 
 分割线下
 
-# 斜体和粗体
+## 斜体和粗体
 
 使用 * 和 ** 分别表示斜体和粗体，删除线使用两个 ~~ 表示
 
@@ -119,7 +119,7 @@ GitHub markdown file format. <!-- outline-end -->
 
 *斜体(*x*)*　　　**粗体（**x**）**　　***斜且粗(***x***)***　　~~删除(~~x~~)~~
 
-# 超链接和图片
+## 超链接和图片
 
 **格式（链接）：**
 ```
@@ -152,7 +152,7 @@ GitHub markdown file format. <!-- outline-end -->
  [2]:https://www.sina.com.cn/ "sina"
  
   
-# 无序列表
+## 无序列表
   使用 -、+ 和 * 表示无序列表，前后留一行空白，可嵌套:
   
 **
@@ -169,7 +169,7 @@ GitHub markdown file format. <!-- outline-end -->
       * 第三次
   + 第一层
 
-# 有序列表
+## 有序列表
  使用 数字　+　. （点号后面有个空格）表示有序列表，可嵌套。
  
 **格式**
@@ -187,7 +187,7 @@ GitHub markdown file format. <!-- outline-end -->
 2. 第一层
 3. 第一层
 
-# 层级
+## 层级
 使用 > 表示(不用空格)，可以有多个 >，>越多表示层级更深．
 
 **格式:**
@@ -212,7 +212,7 @@ GitHub markdown file format. <!-- outline-end -->
 
 >第一层(上一行是空行，跳出第二层)
 
-# 代码块
+## 代码块
 使用\｀即^~实现代码块
 
 这是行内代码块:\`代码块\`
@@ -230,7 +230,7 @@ GitHub markdown file format. <!-- outline-end -->
   }
 ```
 <a name="角标" id="锚点２"></a>
-# 角标
+## 角标
 
 格式
 ```
@@ -248,7 +248,7 @@ GitHub markdown file format. <!-- outline-end -->
 标注２. [^2]
 [^2]: 标注２内容
 
-# 链接
+## 链接
 
 **格式***
 ```
@@ -259,7 +259,7 @@ GitHub markdown file format. <!-- outline-end -->
 <https://www.baidu.com>
 
 <a name="代码高亮" id="锚点１"></a>
-# 代码高亮
+## 代码高亮
 
 标记代码的语种，实现代码的高亮
 
@@ -297,7 +297,7 @@ puts markdown.to_html
        return 0;
     }
 ```
-# 内部跳转
+## 内部跳转
 
 **格式**
 ```
@@ -306,12 +306,12 @@ puts markdown.to_html
   
   ＃跳转处格式
   <a name="代码高亮" id="锚点１"></a>
-  # 代码高亮
+  ## 代码高亮
 ```
 点此[代码高亮](#锚点１)跳转。
 点此[角标](#锚点２)跳转。
 
-# html格式表格
+## html格式表格
 
 **格式**
 ```
@@ -353,7 +353,7 @@ puts markdown.to_html
  </tr>
 </table>
 
-## 表格中链接到本地
+### 表格中链接到本地
 
 **格式**
 ```

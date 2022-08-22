@@ -37,9 +37,6 @@ date: 2022-08-12 12:32:10 +0800
 #published: false
 ---
 
-{%- capture readme_file -%}{%- include_relative _README.md -%}{%- endcapture -%}
-{%- assign tmp_content = readme_file | split: "<!-- readme -->" -%}
-
 <!-- outline-start -->
 
 GitHub markdown file format. <!-- outline-end -->
@@ -62,7 +59,6 @@ GitHub markdown file format. <!-- outline-end -->
 ```
 **显示效果：**
 
-# 标题１（＃）
 ## 标题2（＃＃）
 ### 标题3（＃＃＃）
 #### 标题4（＃＃＃＃）

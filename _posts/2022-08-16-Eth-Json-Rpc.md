@@ -7,9 +7,9 @@ title: Json rpc Apis
 # if not specified, .name will be used from _data/owner/[language].yml
 author: yinzhiqing
 # multiple category is not supported
-category: language
+category: jekyll
 # multiple tag entries are possible
-tags: [yzq, new feature]
+tags: [jekyll, new feature]
 # thumbnail image for post
 img: ":mock1.jpg"
 # disable comments on this page

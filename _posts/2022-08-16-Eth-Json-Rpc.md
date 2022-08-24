@@ -9,9 +9,9 @@ author: yinzhiqing
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, new feature]
+tags: [interface, new feature]
 # thumbnail image for post
-img: ":mock1.jpg"
+img: ":eth-json-rpc.jpg"
 # disable comments on this page
 #comments_disable: true
 

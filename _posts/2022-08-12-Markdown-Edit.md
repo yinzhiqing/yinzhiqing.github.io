@@ -11,7 +11,7 @@ category: language
 # multiple tag entries are possible
 tags: [yzq, new feature]
 # thumbnail image for post
-img: ":mock1.jpg"
+img: ":markdown.jpg"
 # disable comments on this page
 #comments_disable: true
 

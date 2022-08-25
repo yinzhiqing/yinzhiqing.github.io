@@ -101,6 +101,6 @@ page_data:
 ---
     - type: id_terminator
       title: "terminator"
-      url: "https://github.com/gnome-terminator/terminator#terminator"
+      url: "https://gnome-terminator.readthedocs.io/en/latest/"
       info: "If you live at the command-line, or are logged into 10 different remote machines at once, you should definitely try out Terminator.
 ---

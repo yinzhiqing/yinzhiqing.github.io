@@ -41,60 +41,60 @@ date: 2022-08-25 12:32:10 +0800
 
 linux common commands. <!-- outline-end -->
 
-adduser
-alias
-awk
-cat
-cd
-chmod
-chown
-clear
-cmp
-cp
-curl
-date
-df
-du
-echo
-export 
-fdisk
-file
-find
-free
-grep
-head
-ifconfig
-kill
-less
-ln 
-ls
-man
-mkdir
-more
-mount
-netstat
-passwd
-ps 
-pwd
-rm
-rmdir
-scp
-sed
-shutdown
-sort 
-ssh
-su
-tail
-tar
-top
-touch
-uname
-uniq
-unzip
-usermod
-wc
-whereis
-which
-who
-zip
+# adduser
+# alias
+# awk
+# cat
+# cd
+# chmod
+# chown
+# clear
+# cmp
+# cp
+# curl
+# date
+# df
+# du
+# echo
+# export 
+# fdisk
+# file
+# find
+# free
+# grep
+# head
+# ifconfig
+# kill
+# less
+# ln 
+# ls
+# man
+# mkdir
+# more
+# mount
+# netstat
+# passwd
+# ps 
+# pwd
+# rm
+# rmdir
+# scp
+# sed
+# shutdown
+# sort 
+# ssh
+# su
+# tail
+# tar
+# top
+# touch
+# uname
+# uniq
+# unzip
+# usermod
+# wc
+# whereis
+# which
+# who
+# zip
 

@@ -99,3 +99,8 @@ page_data:
       url: "https://www.gnu.org/software/coreutils/manual/html_node/index.html"
       info: "This manual documents version 9.1 of the GNU core utilities, including the standard programs for text and file manipulation."
 ---
+    - type: id_terminator
+      title: "terminator"
+      url: "https://github.com/gnome-terminator/terminator#terminator"
+      info: "If you live at the command-line, or are logged into 10 different remote machines at once, you should definitely try out Terminator.
+---

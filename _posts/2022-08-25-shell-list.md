@@ -41,6 +41,8 @@ date: 2022-08-25 12:32:10 +0800
 
 linux common commands. <!-- outline-end -->
 
+[gun core utils](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
+
 # adduser
 # alias
 # awk

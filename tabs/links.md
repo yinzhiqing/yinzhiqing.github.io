@@ -56,6 +56,9 @@ page_data:
     - title: "linux command"
       type: id_linuxcommand
       color: "#62c462"
+    - title: "Languages"
+      type: id_liquid
+      color: "#62d462"
 
   list:
     -
@@ -103,7 +106,7 @@ page_data:
     - type: id_terminator
       title: "terminator"
       url: "https://gnome-terminator.readthedocs.io/en/latest/"
-      info: "If you live at the command-line, or are logged into 10 different remote machines at once, you should definitely try out Terminator.
+      info: "If you live at the command-line, or are logged into 10 different remote machines at once, you should definitely try out Terminator."
 
     # languages
     - type: id_liquid

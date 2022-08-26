@@ -98,9 +98,16 @@ page_data:
       title: "GNU Coreutils"
       url: "https://www.gnu.org/software/coreutils/manual/html_node/index.html"
       info: "This manual documents version 9.1 of the GNU core utilities, including the standard programs for text and file manipulation."
----
+
+    # tools
     - type: id_terminator
       title: "terminator"
       url: "https://gnome-terminator.readthedocs.io/en/latest/"
       info: "If you live at the command-line, or are logged into 10 different remote machines at once, you should definitely try out Terminator.
+
+    # languages
+    - type: id_liquid
+      title: "liquid"
+      url: "https://shopify.github.io/liquid/"
+      info: "Liquid is an open-source template language created by Shopify and written in Ruby. It is the backbone of Shopify themes and is used to load dynamic content on storefronts"
 ---

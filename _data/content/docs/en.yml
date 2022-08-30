@@ -1,4 +1,4 @@
-# you can move this content to front matter of [language]/tabs/projects.md
+# you can move this content to front matter of [language]/tabs/docs.md
 ###########################################################
 #                Docs Page Data
 ###########################################################
@@ -8,7 +8,7 @@ page_data:
     info: "some docs."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
+    img: ":docs-heading.jpg"
     back_color: "lightblue"
 
   category:
@@ -24,9 +24,9 @@ page_data:
 
   list:
     - type: id_chainblock
-      project_name: "sui_cn智能合约平台"
-      project_excerpt: <a href="/assets/docs/sui_cn.pdf" target="_blank">sui 智能合约平台.</a>
-      img: ":project2_thumb.jpg"
+      doc_name: "sui_cn智能合约平台"
+      doc_excerpt: <a href="/assets/docs/sui_cn.pdf" target="_blank">sui 智能合约平台.</a>
+      img: ":doc2_thumb.jpg"
       img_title: "img title5"
       date: "2022-08-30"
       post: |

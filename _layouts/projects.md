@@ -23,7 +23,7 @@ layout: default
 {%- if project_data.main.text_color -%}
   {%- capture color_style -%} style="color:{{ project_data.main.text_color }};" {%-endcapture-%}
 {%- endif %}
-  <h1 {{ color_style }}>{{ project_data.main.header | default: "Projects" }}</h1>
+  <h1 {{ color_style }}>{{ project_data.main.header | default: "Docs" }}</h1>
   <p {{ color_style }}>{{ project_data.main.info | default: "No data, check page_data in [language]/tabs/projects.md front matter or _data/content/projects/[language].yml" }}</p>
   <div class="multipurpose-button-wrapper">
   {% for category in project_data.category %}

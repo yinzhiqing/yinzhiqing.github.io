@@ -189,6 +189,8 @@ side_and_top_nav_buttons:
     icon: "fa fa-archive"
   - projects:
     icon: "fa fa-cog"
+  - docs:
+    icon: "fa fa-pencil-square-o"
   - links:
     icon: "fa fa-link"
   - about:

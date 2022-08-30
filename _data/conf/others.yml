@@ -32,3 +32,9 @@ links:
 projects:
   # if no picture is provided for projects list item, this fills with an empty picture for better look.
   project_img_fill: true
+
+######################### Docs ###########################
+
+docs:
+  # if no picture is provided for docs list item, this fills with an empty picture for better look.
+  doc_img_fill: true

@@ -35,6 +35,6 @@ projects:
 
 ######################### Docs ###########################
 
-docs:
-  # if no picture is provided for docs list item, this fills with an empty picture for better look.
-  doc_img_fill: true
+ebooks:
+  # if no picture is provided for ebooks list item, this fills with an empty picture for better look.
+  ebook_img_fill: true

@@ -3,30 +3,30 @@
  * Licensed under MIT
 */
 
-.doc-heading-container {
+.ebook-heading-container {
   background-size: cover;
   text-align: center;
 }
 
-.doc-heading-container .doc-buttons {
-  @include get_scheme(doc-container-colors-);
-  --multipurpose-button-text-color: var(--doc-button-text-color);
-  --multipurpose-button-border-color: var(--doc-button-border-color);
-  --multipurpose-button-hover-color: var(--doc-button-hover-color);
+.ebook-heading-container .ebook-buttons {
+  @include get_scheme(ebook-container-colors-);
+  --multipurpose-button-text-color: var(--ebook-button-text-color);
+  --multipurpose-button-border-color: var(--ebook-button-border-color);
+  --multipurpose-button-hover-color: var(--ebook-button-hover-color);
 }
 
-.doc-heading-container h1 {
+.ebook-heading-container h1 {
   font-size: 3.6rem;
   line-height: 3.1rem;
   font-weight: 700;
 }
 
-.doc-heading-container p {
+.ebook-heading-container p {
   font-size: 1.7rem;
   font-weight: 300;
 }
 
-.doc-container {
+.ebook-container {
   margin-left: 5%;
   margin-right: 5%;
   padding-top: 0;
@@ -34,7 +34,7 @@
   margin-bottom: 10px;
 }
 
-.doc-container .doc-img {
+.ebook-container .ebook-img {
   position: relative;
   margin: 0;
   display: block;
@@ -43,7 +43,7 @@
   padding-left: 0;
 }
 
-.doc-container .doc-img img {
+.ebook-container .ebook-img img {
   border-radius: 10px;
   min-height: 140px;
   min-width: 140px;
@@ -52,58 +52,58 @@
   object-fit: cover;
 }
 
-.doc-container .doc-header > h1 {
+.ebook-container .ebook-header > h1 {
   margin-top: 10px;
 }
 
-.doc-container .doc-header > h4 {
+.ebook-container .ebook-header > h4 {
   margin-bottom: 19px;
 }
 
-.doc-container .doc-header > hr {
+.ebook-container .ebook-header > hr {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 15px;
 }
 
 /* read more less text font */
-.doc-container .read-more-less {
+.ebook-container .read-more-less {
   font-weight: 400;
   font-size: 1.5rem;
-  /*color: var(--doc-read-more-less-text-color);*/
+  /*color: var(--ebook-read-more-less-text-color);*/
 }
 
-.doc-container .doc-header > .read-more-less > .read-less {
+.ebook-container .ebook-header > .read-more-less > .read-less {
   display: none;
 }
 
-.doc-container .row {
+.ebook-container .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.doc-container .row:first-child {
+.ebook-container .row:first-child {
   width: calc(100% + (var(--text-spacing) * 2));
   margin-left: calc(-1 * var(--text-spacing));
 }
 
-.doc-container .markdown-style {
+.ebook-container .markdown-style {
   display: none;
   padding-top: calc(var(--text-spacing) / 1.5);
   padding-bottom: calc(var(--text-spacing) / 2);
 }
 
-.doc-container .doc-header > h4 {
+.ebook-container .ebook-header > h4 {
   font-weight: 300;
   font-size: 1.6rem;
 }
 
-.doc-container .doc-header > .meta-container {
+.ebook-container .ebook-header > .meta-container {
   font-size: 0;
 }
 
 /* date and category font */
-.doc-container .doc-header > .meta-container p {
+.ebook-container .ebook-header > .meta-container p {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 400;
@@ -112,25 +112,25 @@
 }
 
 /* category */
-.doc-container .doc-header > .meta-container > p.category {
+.ebook-container .ebook-header > .meta-container > p.category {
   text-align: left;
   width: 25%;
-  color: var(--doc-category-text-color);
+  color: var(--ebook-category-text-color);
 }
 
 /* date */
-.doc-container .doc-header > .meta-container > p.date {
+.ebook-container .ebook-header > .meta-container > p.date {
   text-align: left;
   width: 35%;
-  color: var(--doc-date-text-color);
+  color: var(--ebook-date-text-color);
 }
 
-.doc-container .doc-header > .meta-container .fa {
+.ebook-container .ebook-header > .meta-container .fa {
   display: inline;
 }
 
 @media screen and (max-width: 500px) {
-  .doc-container {
+  .ebook-container {
     margin-left: unset;
     margin-right: unset;
   }

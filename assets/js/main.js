@@ -60,8 +60,8 @@ layout: util/compress_js
 {% assign pages = site.html_pages | where_exp: "item", "item.layout == 'projects'" %}
 {% if pages.size > 0 %} {% assign projects_page_exist = true %} {% endif %}
 
-{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'docs'" %}
-{% if pages.size > 0 %} {% assign docs_page_exist = true %} {% endif %}
+{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'ebooks'" %}
+{% if pages.size > 0 %} {% assign ebooks_page_exist = true %} {% endif %}
 
 
 {% if home_page_exist %}
@@ -76,8 +76,8 @@ layout: util/compress_js
   {% include_relative _js/projects/read-more-less.js %}
 {% endif %}
 
-{% if docs_page_exist %}
-  {% include_relative _js/docs/read-more-less.js %}
+{% if ebooks_page_exist %}
+  {% include_relative _js/ebooks/read-more-less.js %}
 {% endif %}
 
 {%- if post_exist -%}

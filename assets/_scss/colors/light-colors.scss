@@ -144,7 +144,7 @@ $anchor-text-color-light: #3389de;
   --close-button-color: #{$button-color-light};
   --close-button-hover-color: #{$header-color-light};
 }
-// layout: projects, docs, post, post-list
+// layout: projects, ebooks, post, post-list
 // common/markdown-style
 %markdown-style-colors-light {
   --markdown-styles-header-text-color: #{$header-color-light};
@@ -244,14 +244,14 @@ $anchor-text-color-light: #3389de;
   --project-button-hover-color: #fff;
 }
 
-// layout: docs
-// docs/doc-container
-%doc-container-colors-light {
-  --doc-category-text-color: #808080;
-  --doc-date-text-color: #808080;
+// layout: ebooks
+// ebooks/ebook-container
+%ebook-container-colors-light {
+  --ebook-category-text-color: #808080;
+  --ebook-date-text-color: #808080;
   // for accessibility purpose taken from link color
-  //--doc-read-more-less-text-color: black;
-  --doc-button-text-color: #fff;
-  --doc-button-border-color: #fff;
-  --doc-button-hover-color: #fff;
+  //--ebook-read-more-less-text-color: black;
+  --ebook-button-text-color: #fff;
+  --ebook-button-border-color: #fff;
+  --ebook-button-hover-color: #fff;
 }

@@ -254,14 +254,14 @@ $anchor-text-color-dark: #3389de;
   --project-button-hover-color: #fff;
 }
 
-// layout: docs
-// docs/doc-container
-%doc-container-colors-dark {
-  --doc-category-text-color: #c0c0c0;
-  --doc-date-text-color: #c0c0c0;
+// layout: ebooks
+// ebooks/ebook-container
+%ebook-container-colors-dark {
+  --ebook-category-text-color: #c0c0c0;
+  --ebook-date-text-color: #c0c0c0;
   // for accessibility purpose taken from link color
   //--project-read-more-less-text-color: white;
-  --doc-button-text-color: #fff;
-  --doc-button-border-color: #fff;
-  --doc-button-hover-color: #fff;
+  --ebook-button-text-color: #fff;
+  --ebook-button-border-color: #fff;
+  --ebook-button-hover-color: #fff;
 }

@@ -1,14 +1,14 @@
-# you can move this content to front matter of [language]/tabs/docs.md
+# you can move this content to front matter of [language]/tabs/ebooks.md
 ###########################################################
-#                Docs Page Data
+#                ebooks Page Data
 ###########################################################
 page_data:
   main:
-    header: "Docs"
-    info: "some docs."
+    header: "ebooks"
+    info: "some ebooks."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":docs-heading.jpg"
+    img: ":ebooks-heading.jpg"
     back_color: "lightblue"
 
   category:
@@ -24,9 +24,9 @@ page_data:
 
   list:
     - type: id_chainblock
-      doc_name: "sui_cn智能合约平台"
-      doc_excerpt: <a href="/assets/docs/sui_cn.pdf" target="_blank">sui 智能合约平台.</a>
-      img: ":doc2_thumb.jpg"
+      ebook_name: "sui_cn智能合约平台"
+      ebook_excerpt: <a href="/assets/ebooks/sui_cn.pdf" target="_blank">sui 智能合约平台.</a>
+      img: ":ebook2_thumb.jpg"
       img_title: "img title5"
       date: "2022-08-30"
       post: |

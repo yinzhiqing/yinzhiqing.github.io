@@ -1,7 +1,7 @@
 ---
-layout: projects
+layout: ebooks
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_prjs
+lng_pair: id_docs
 
 # publish date (used for seo)
 # if not specified, site.time will be used.
@@ -32,3 +32,5 @@ image_lazy_loader_on: true
 #published: false
 ---
 
+
+# hello

@@ -159,10 +159,10 @@ projects:
   read_more_text: Read more
   read_less_text: Read less
 
-# for docs layout
-docs:
-  title: Docs
-  button_name: Docs
+# for ebooks layout
+ebooks:
+  title: eBooks
+  button_name: eBooks
   read_more_text: Read more
   read_less_text: Read less
 

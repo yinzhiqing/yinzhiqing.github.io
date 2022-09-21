@@ -31,4 +31,13 @@ page_data:
       date: "2022-08-30"
       post: |
           Sui 是一个分散的无许可智能合约平台，倾向于低延迟的资产管理。它使用移动编程语言将资产定义为地址可能拥有的对象。移动程序定义对这些类型化对象的操作，包括创建这些对象的自定义规则、将这些资产转移给新所有者以及对资产进行变异的操作。
+    - type: id_chainblock
+      project_name: "Avalanche Platform"
+      project_excerpt: <a href="/assets/docs/Avalanche_Platform_Whitepaper.pdf" target="_blank">Avalance Platform</a>
+      img: ":project2_thumb.jpg"
+      img_title: "img title5"
+      date: "2022-08-30"
+      post: |
+          提供了雪崩平台的体系结构概述。 重点关注平台的三个关键区别： 引擎、 体系结构模型和治理机制。
+          <a href="/assets/docs/Avalanche_Platform_Whitepaper_cn.pdf" target="_blank">Avalance Platform(中文)</a>
           

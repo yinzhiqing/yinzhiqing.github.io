@@ -55,7 +55,7 @@ page_data:
     
     - type: id_chainblock
       ebook_name: "IPFS的技术原理与应用"
-      ebook_excerpt: <a href="/assets/ebooks/ipfs-tpa.pdf" target="_blank">TCP/IP协议</a>
+      ebook_excerpt: <a href="/assets/ebooks/ipfs-tpa.pdf" target="_blank">ipfs</a>
       img: ":ebook2_thumb.jpg"
       img_title: "img title5"
       date: "2022-08-31"

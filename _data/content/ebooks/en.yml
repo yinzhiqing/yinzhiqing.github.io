@@ -21,6 +21,9 @@ page_data:
     - title: "chainblock"
       type: id_chainblock
       color: "#2FD0ED"
+    - title: "tools"
+      type: id_tools
+      color: "#2FD0ED"
 
   list:
     - type: id_chainblock
@@ -40,3 +43,22 @@ page_data:
       date: "2022-08-31"
       post: |
           很多不同的厂家生产各种型号的计算机，它们运行完全不同的操作系统，但 T C P / I P协议 族允许它们互相进行通信。这一点很让人感到吃惊，因为它的作用已远远超出了起初的设想。 T C P / I P起源于6 0年代末美国政府资助的一个分组交换网络研究项目，到 9 0年代已发展成为计算机之间最常应用的组网形式。
+
+    - type: id_tools
+      ebook_name: "Pro git 中文版"
+      ebook_excerpt: <a href="/assets/ebooks/git_pro_cn.pdf" target="_blank">Pro git</a>
+      img: ":ebook2_thumb.jpg"
+      img_title: "img title5"
+      date: "2023-06-21"
+      post: |
+         git 是版本控制管理系统。
+    
+    - type: id_chainblock
+      ebook_name: "IPFS的技术原理与应用"
+      ebook_excerpt: <a href="/assets/ebooks/ipfs-tpa.pdf" target="_blank">TCP/IP协议</a>
+      img: ":ebook2_thumb.jpg"
+      img_title: "img title5"
+      date: "2022-08-31"
+      post: |
+         IPFS（InterPlanetary File System）是一个基于内容寻址的、分布式的、新型超媒体传输协议. 
+    

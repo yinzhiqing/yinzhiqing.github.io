@@ -59,6 +59,10 @@ page_data:
     - title: "Languages"
       type: id_liquid
       color: "#62d462"
+    - title: "kubernetes"
+      type: id_kubernetes
+      color: "#62d462"
+
 
   list:
     -
@@ -113,4 +117,11 @@ page_data:
       title: "liquid"
       url: "https://shopify.github.io/liquid/"
       info: "Liquid is an open-source template language created by Shopify and written in Ruby. It is the backbone of Shopify themes and is used to load dynamic content on storefronts"
+
+    # kubernetes
+    - type: id_kubernetes
+      title: "kubernetes docs"
+      url: https://kubernetes.io/zh-cn/docs/home/
+      info: "iKubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理。该项目托管在 CNCF。"
+
 ---

@@ -100,3 +100,12 @@ linux common commands. <!-- outline-end -->
 # who
 # zip
 
+# 更改当前用户默认shell
+```
+    chsh -s /bin/bash
+```
+
+# 添加用户到sudo组
+```
+    sudo usermod -aG sudo USERNAME
+```

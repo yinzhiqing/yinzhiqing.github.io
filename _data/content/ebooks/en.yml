@@ -53,6 +53,15 @@ page_data:
       post: |
          git 是版本控制管理系统。
     
+    - type: id_tools
+      ebook_name: "Docker reference"
+      ebook_excerpt: <a href="/assets/ebooks/Dockerfile-reference.pdf" target="_blank">Docker reference</a>
+      img: ":ebook2_thumb.jpg"
+      img_title: "img title5"
+      date: "2024-03-04"
+      post: |
+         Docker cli command。
+    
     - type: id_chainblock
       ebook_name: "IPFS的技术原理与应用"
       ebook_excerpt: <a href="/assets/ebooks/ipfs-tpa.pdf" target="_blank">ipfs</a>

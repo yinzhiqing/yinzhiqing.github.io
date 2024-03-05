@@ -62,6 +62,9 @@ page_data:
     - title: "kubernetes"
       type: id_kubernetes
       color: "#62d462"
+    - title: "docker"
+      type: id_docker
+      color: "#62d462"
 
 
   list:
@@ -123,5 +126,11 @@ page_data:
       title: "kubernetes docs"
       url: https://kubernetes.io/zh-cn/docs/home/
       info: "iKubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理。该项目托管在 CNCF。"
+
+    # docker
+    - type: id_docker
+      title: "docker docs"
+      url: https://docs.docker.com/reference/
+      info: "包括Docker平台的各种API，CLIS，驱动程序和规格以及文件格式的参考文档。"
 
 ---
